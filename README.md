@@ -2,72 +2,67 @@
 
 ## Overview
 
-Hands-on documentation of troubleshooting and maintaining Windows systems, with a focus on identifying software, configuration, performance, storage, and stability issues.
+Hands-on documentation of troubleshooting, maintaining, and configuring Windows systems.
 
-This project documents practical troubleshooting methods used to investigate Windows problems and determine appropriate solutions.
+This project documents real technical problem solving involving software issues, system configuration, performance, storage, stability, resource usage, and hardware/software interactions.
+
+The focus is on identifying symptoms, investigating possible causes, testing solutions, and documenting the troubleshooting process.
 
 ---
 
-## Environment
+## System Environment
 
 - **Operating System:** Windows 11 Home
-- **Primary System:** Custom-built desktop PC
 - **CPU:** AMD Ryzen 7 2700X
-- **Memory:** 32GB RAM
 - **GPU:** NVIDIA GeForce RTX 2070
-- **Storage:** NVMe M.2 SSD-based storage
+- **RAM:** 32GB
+- **Storage:** NVMe M.2 SSD
 
 ---
 
 ## Problems Investigated
 
-Windows troubleshooting areas have included:
-
-- Random system freezing
-- System instability
-- Gaming stuttering and performance problems
-- High system resource usage
-- Storage capacity management
+- Random freezing and system instability
+- Gaming stuttering and performance issues
+- High resource usage
+- Storage capacity and management
 - Background processes
 - Software conflicts
 - Driver and hardware-related issues
-- System configuration
-- Performance optimization
-- General Windows maintenance
+- Windows configuration
+- System optimization
+- General system maintenance
 
 ---
 
 ## Troubleshooting Methodology
 
-Windows issues were approached using a structured process:
+A systematic approach was used when investigating Windows-related problems:
 
-1. Identify the symptoms
+1. Identify and reproduce the symptoms
 2. Determine when and how the problem occurs
-3. Identify potential hardware, software, driver, or configuration causes
-4. Research the issue and relevant documentation
+3. Consider hardware, software, driver, configuration, and resource-related causes
+4. Research potential causes and solutions
 5. Monitor system behavior and resource usage
 6. Test potential solutions
-7. Evaluate the result
-8. Document the troubleshooting process and lessons learned
+7. Evaluate the results
+8. Document the findings and lessons learned
 
-The goal is to identify the underlying cause rather than repeatedly applying unrelated fixes.
+Changes were approached methodically to avoid introducing additional problems.
 
 ---
 
-## Windows Tools & Utilities
-
-Tools and utilities explored during troubleshooting include:
+## Tools & Utilities
 
 - Windows Settings
 - Task Manager
 - Device Manager
 - System Information
 - Event Viewer
-- Windows administrative utilities
-- Windows storage management tools
+- Storage management utilities
 - Command Prompt
 - PowerShell
-- NVIDIA system utilities
+- NVIDIA utilities
 - MSI Afterburner
 - Process Lasso
 
@@ -75,47 +70,46 @@ Tools and utilities explored during troubleshooting include:
 
 ## Performance Troubleshooting
 
-Performance-related investigation has included:
+Areas investigated include:
 
-- CPU and GPU utilization
+- CPU utilization
+- GPU utilization
 - Memory usage
-- Storage capacity and performance
+- Storage usage
 - Background processes
 - Startup applications
-- GPU configuration
-- Thermal conditions
 - System responsiveness
 - Gaming performance
+- Thermal behavior
 - Software resource usage
 
 ---
 
 ## Storage Management
 
-Storage-related work has included:
+Storage-related work included:
 
 - Identifying large storage consumers
-- Evaluating installed applications and files
 - Managing available disk space
-- Evaluating storage upgrades
-- Researching NVMe SSD compatibility
-- Understanding storage capacity and performance considerations
+- Evaluating installed applications and files
+- Investigating storage performance
+- Researching NVMe storage upgrades
+- Evaluating capacity and performance requirements
 
 ---
 
 ## System Stability
 
-System stability issues investigated have included:
+Troubleshooting included investigating:
 
-- Random freezing
+- System freezing
 - Performance stuttering
-- Unexpected system behavior
-- Software-related instability
-- Hardware-related instability
-- Thermal issues
-- Driver and configuration considerations
-
-Troubleshooting focused on isolating possible causes before making system changes.
+- Unexpected behavior
+- Software instability
+- Driver-related issues
+- Thermal conditions
+- Hardware/software interactions
+- Windows configuration issues
 
 ---
 
@@ -127,7 +121,7 @@ Troubleshooting focused on isolating possible causes before making system change
 - Storage management
 - Resource monitoring
 - Software troubleshooting
-- Hardware/software issue isolation
+- Hardware/software isolation
 - Technical research
 - Problem solving
 - Command-line familiarity
@@ -138,12 +132,15 @@ Troubleshooting focused on isolating possible causes before making system change
 
 ## Lessons Learned
 
-- Windows problems can originate from hardware, software, drivers, configuration, or resource limitations.
-- Troubleshooting should begin with identifying and reproducing the problem.
-- System monitoring can help distinguish between competing causes.
-- Changes should be made methodically so their effects can be evaluated.
-- Understanding the relationship between hardware and software is important when troubleshooting system problems.
-- Documentation helps create a repeatable troubleshooting process.
+This project reinforced the importance of:
+
+- Reproducing problems before changing configurations
+- Using monitoring tools to gather evidence
+- Separating hardware and software causes
+- Making controlled changes
+- Understanding system resource usage
+- Researching unfamiliar technical problems
+- Documenting troubleshooting processes clearly
 
 ---
 
@@ -151,4 +148,4 @@ Troubleshooting focused on isolating possible causes before making system change
 
 **Completed — ongoing learning**
 
-This project represents practical Windows troubleshooting experience and provides a foundation for continued development in IT support, systems administration, networking, and cybersecurity.
+This project provides a foundation for future work involving networking, systems administration, and cybersecurity.
